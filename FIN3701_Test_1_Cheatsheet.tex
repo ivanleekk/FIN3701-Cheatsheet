@@ -14,6 +14,7 @@
 \usepackage{pdfpages}
 \usepackage{titlesec}
 \usepackage{tabularx}
+\usepackage{booktabs}
 
 \usepackage[most]{tcolorbox}
 \tcbuselibrary{skins,breakable}
@@ -26,8 +27,10 @@ boxrule=0mm,leftrule=1mm,boxsep=0mm,arc=0mm,outer arc=0mm}
 
 \renewcommand{\baselinestretch}{0.5} % line spacing
 \parskip=0.25pt % paragraph spacing
-
-% \titleformat*{\section}{\normalsize\bfseries}
+\setlength\extrarowheight{2pt} % table row height
+\renewcommand{\arraystretch}{2}
+% \centering
+% \titleformat*{\section} {\normalsize\bfseries}
 % \titleformat*{\subsection}{\small\bfseries}
 
 \begin{document}
@@ -36,8 +39,8 @@ boxrule=0mm,leftrule=1mm,boxsep=0mm,arc=0mm,outer arc=0mm}
 \tiny % 5pt
 % \setlength{\parindent}{0pt}
 \begin{multicols*}{3}
-    \input{sections/example1}
-    \input{sections/example2}
+    \input{sections/intro_to_corporate_finance}
+
 \end{multicols*}
 
 

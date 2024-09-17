@@ -1,0 +1,46 @@
+\section{Intro to Corporate Finance}
+\subsection{Risk-Return Recap}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.25\linewidth} >{\raggedright\arraybackslash}X} % Adjust the width as needed
+    \toprule
+    \multicolumn{2}{c}{\textbf{Formulas}}\\
+    \midrule
+    Expected Return & $E(R) = \sum_{s=1}^{K} p_s R_s$ \\
+    Variance & $\sigma^2 = \sum_{s=1}^{K} p_s (R_s - E(R))^2$ \\
+    Covariance & $\sigma_{AB} = \sum_{s=1}^{K} p_s (R_{s,A} - E(R_A))(R_{s,B} - E(R_B))$ \\
+    Correlation Coefficient & $\rho_{AB} = \frac{\sigma_{AB}}{\sigma_A \sigma_B}$ \\
+    Total Risk & Total Risk $=$ Systematic Risk $+$ Firm-Specific Risk \\
+    Relevant Risk & A security's contribution to well-diversified portfolio risk \\
+    Beta ($\beta$) & $\beta = \frac{Cov(R_i,R_M)}{Var(R_M)} = \frac{\rho_iM\sigma_i\sigma_M}{\sigma^2(R_M)}$ \\
+    Portfolio Risk ($\sigma^2_p$) & $\sigma^2_p = \sum_{i=1}^{N}(w^2_i\sigma^2_i) + \sum_{i=1}^{N}\sum_{j=1}^{N}(w_iw_j\sigma_{ij})$ \\
+    Expected Return on a security & $E(R_i) = R_f + \beta_i(E(R_M) - R_f)$ \\
+    Expected Return on a portfolio & $E(R_p) = R_f + \beta_p(E(R_M) - R_f)$ \\
+    Degree of Leverage & $DOL = \frac{\Delta EBIT}{EBIT} \times \frac{Sales}{\Delta Sales}$ \\
+    Equity Beta & $\beta_{Equity} = \beta_{Unlevered Firm} + (1-T_C)\times(\beta_{Unlevered Firm}-\beta_{Debt})\times\frac{MV of Debt}{MV of Levered Equity}$ \\
+    Unlevered Beta & $\beta_{Unlevered Firm} = \frac{\beta_{Levered Firm}}{1+(1-T_C)\times\frac{MV of Debt}{MV of Levered Equity}}$ \\
+    WACC & $WACC = \frac{Equity}{Equity + Debt}\times r_{Equity} + \frac{Debt}{Equity + Debt}\times r_{Debt}\times (1-T_C)$ \\
+    \bottomrule
+\end{tabularx}
+
+Diversification works because firm-specific risks can be averaged out to zero as multiple firms are not related to each other. Systematic risks, however, cannot be diversified away.
+
+A portfolio variance increasingly depends on covariance terms as the number of securities in the portfolio increases. Hence as securities are added, the marginal contribution to portfolio risk comes mainly from covariance with the portfolio.
+
+Beta can be determined by business risk, such as the cyclicity of the industry or operating leverage.
+
+The Degree of Operating Leverage measures how sensitive a firm is to its fixed costs, it increases as fixed costs rise and variable costs fall. Operating Leverage magnifies the effect of cyclicity on beta $\beta$.
+
+Different from Financial Leverage which is the sensitivity of the firm to fixed cost of financing.
+
+Betas shoudl be stable for firms in the same industry, but can change due to changes in the firm's business risk or financial leverage.
+
+\subsection{Cost of Capital}
+Cost of Debt depends on interest rate levels, default risk of the firm and tax rates
+
+Cost of Equity depends on the risk-free rate, the market risk premium, and the firm's beta, being the return required by investors to invest in the firm's equity from the CAPM model.
+
+To estimate WACC, first estimate an equity beta and then a cost of equity, then estimate a cost of debt by observing YTM of the firm's debt, and finally calculate the WACC.
+
+Liquidity is the ability to convert an asset into cash quickly and can be measured by how much is lost when selling an asset.
+
+By increasing Liquidity and lowering trading costs, investors will demand a lower return on the asset, hence lowering the cost of capital.
+
