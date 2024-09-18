@@ -1,0 +1,48 @@
+\section{Capital Budgeting}
+\subsection{NPV}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.25\linewidth} >{\raggedright\arraybackslash}X} % Adjust the width as needed
+    \toprule
+    \multicolumn{2}{c}{\textbf{Formulas}}\\
+    \midrule
+    NPV & $NPV = \sum_{t=0}^{T} \frac{CF_t}{(1+r)^t} - C_0$ \\
+    Black Scholes & $C = S\times N(d_1) - PV(K)\times N(d_2)$ \newline
+                    $d1 = \frac{ln[S/PV(K)]}{\sigma \sqrt T} + \frac{\sigma\sqrt T}{2}$ and
+                    $d2 = d1 = \sigma\sqrt T$ \newline
+                    where \textbf{S}: current price, \textbf{K}: exercise price and \textbf{N(d)}: culmulative normal distribution\\
+    Market Value of Project & $V = NPV + \text{Value of Embedded Options}$ \\
+    Free Cash Flow (FCF) & $FCF = EBIT(1-T) + Depreciation - \Delta NWC - CapEx$ \\
+    Enteprise Value (EV) & $EV =$ Value of Equity + Value of Debt - Excess Cash \\
+    EV if growth is constant and perpetual & $EV = \frac{FCF_0(1+g)}{r_{WACC} - g}$ \\
+    \bottomrule
+\end{tabularx}
+Typically we will evaluate the NPV of a project and only accept it if it gives us positive returns (i.e. $NPV > 0$).
+
+The discount rate used when calculating NPV is the WACC, which is the weighted average cost of capital, because that is the minimum expected return on capital if it is not invested in the project.
+
+To forecast risk, we can do sensitivity analysis which is to change the variables in the model to see how the NPV changes. We can also do scenario analysis which is to change multiple variables at once to see how the NPV changes.
+
+Since deciding on when to start a project is an option, we can use Black-Scholes to value the option to invest in the project.
+
+Benefits of delaying could be declining real costs, increasing real benefits, or increasing the probability of success.
+
+
+Discounted Cash Flow Valuation is the process of valuing an investment by discounting its future cash flows. The discount rate used is the WACC.
+
+Free Cash Flows (FCF) is cash that the firm is free to distribute to creditors and stockholders because it is not needed for working capital or fixed asset investment
+
+DCF method is preferred to dividend growth model as a large number of firms do not pay dividends and they are hard to forecast
+
+Relative Valuation of a firm can be done based on some price multiples, analagous to psf price in housing.
+
+Trailing P/E is the ratio of the current price to the last year's earnings, while Forward P/E is the ratio of the current price to the next year's expected earnings.
+
+Limitations of P/E is that it is not comparable across countries with different accounting standards, and it cannot be used when earnings are negative
+
+P/B is the ratio of the market value to the book value of equity, and P/S is the ratio of the current price to the sales per share.
+
+High P/B means that the firm is a growth stock as people expect it to keep growing in the future. P/S is useful 
+for firms with negative earnings as it is not affected by accounting choices and revenue is non-negative.
+
+Limitations of relative Valuation is that peer firms are not identical, and there can be differences in expected growth rates,
+profitability, risk, accounting standards, etc.
+
