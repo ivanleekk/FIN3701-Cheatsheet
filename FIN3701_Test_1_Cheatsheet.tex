@@ -15,6 +15,12 @@
 \usepackage{titlesec}
 \usepackage{tabularx}
 \usepackage{booktabs}
+\usepackage{titlesec}
+\usepackage{amssymb}
+
+\titlespacing\section{0pt}{2pt plus 0pt minus 0pt}{0pt plus 0pt minus 0pt}
+\titlespacing\subsection{0pt}{2pt plus 0pt minus 0pt}{0pt plus 0pt minus 0pt}
+\titlespacing\subsubsection{0pt}{2pt plus 0pt minus 0pt}{0pt plus 0pt minus 0pt}
 
 \usepackage[most]{tcolorbox}
 \tcbuselibrary{skins,breakable}
@@ -27,21 +33,23 @@ boxrule=0mm,leftrule=1mm,boxsep=0mm,arc=0mm,outer arc=0mm}
 
 \renewcommand{\baselinestretch}{0.5} % line spacing
 \parskip=5pt % paragraph spacing
-\setlength\extrarowheight{2pt} % table row height
-\renewcommand{\arraystretch}{2}
+\setlength\extrarowheight{0pt} % table row height
+\renewcommand{\arraystretch}{0}
 % \centering
-% \titleformat*{\section} {\normalsize\bfseries}
-% \titleformat*{\subsection}{\small\bfseries}
+\titleformat*{\section} {\tiny\bfseries}
+\titleformat*{\subsection}{\tiny\bfseries}
+\linespread{0.1}
 
 \begin{document}
 %\footnotesize
-\scriptsize % 7pt
-% \tiny % 5pt
+%\scriptsize % 7pt
+\tiny % 5pt
 % \setlength{\parindent}{0pt}
 \begin{multicols*}{3}
     \input{sections/intro_to_corporate_finance}
     \input{sections/capital_budgeting}
     \input{sections/capital_structure}
+    \input{sections/mergers_and_acquisitions}
 
 \end{multicols*}
 
